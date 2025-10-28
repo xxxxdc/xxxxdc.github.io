@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me ([CV](../assets/Curriculum_Vitae.pdf))"
+title: "About Me ([CV](../assets/CV-Dongchen Xie.pdf))"
 author_profile: true
 redirect_from: 
   - /about/
