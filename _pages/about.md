@@ -23,5 +23,5 @@ I'm currently a second-year postgraduate student at the School of Cyber Science 
 <hr style="border: 0; border-top: 1px solid #ddd; margin: 10px 0;">
 <span style="white-space: nowrap;">
   <i class="fas fa-medal" style="color: #FFD700; margin: 0 5px;"></i> <!-- 皇冠图标 -->
-  **Not Every Patch is an Island: LLM-Enhanced Identification of Multiple Vulnerability Patches**
+  The 7th Open Source Innovation Competition **First Prize**
 </span>
