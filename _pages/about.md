@@ -22,6 +22,10 @@ I'm currently a second-year postgraduate student at the School of Cyber Science 
 # <a id="Honors and Awards"></a>Honors and Awards
 <hr style="border: 0; border-top: 1px solid #ddd; margin: 10px 0;">
 <span style="white-space: nowrap;">
-  🥇<span style="font-size: 0.8em;">First Prize</span> <!-- 皇冠图标 -->
+  🥇<span style="font-size: 0.8em;">First Prize</span>
   **The 7th Open Source Innovation Competition**
+  
+  🥉<span style="font-size: 0.8em;">Third Prize</span>
+  **The Domestic Open-Source Community Vulnerability Mining Competition**
+   
 </span>
