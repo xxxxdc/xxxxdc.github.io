@@ -22,6 +22,6 @@ I'm currently a second-year postgraduate student at the School of Cyber Science 
 # <a id="Honors and Awards"></a>Honors and Awards
 <hr style="border: 0; border-top: 1px solid #ddd; margin: 10px 0;">
 <span style="white-space: nowrap;">
-  <i class="fas fa-medal" style="color: #FFD700; margin: 0 5px;"></i>*<span style="font-size: 0.8em;">First Prize</span>* <!-- 皇冠图标 -->
+  🥇 *<span style="font-size: 0.8em;">First Prize</span>* <!-- 皇冠图标 -->
   **The 7th Open Source Innovation Competition**
 </span>
