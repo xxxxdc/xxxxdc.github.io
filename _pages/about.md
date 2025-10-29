@@ -21,7 +21,5 @@ I'm currently a second-year postgraduate student at the School of Cyber Science 
 
 # <a id="Honors and Awards"></a>Honors and Awards
 <hr style="border: 0; border-top: 1px solid #ddd; margin: 10px 0;">
-<span style="white-space: nowrap;">
-  <i class="fas fa-medal" style="color: #FFD700; margin: 0 5px;"></i> 
-  ****
+:trophy: 荣获 CCF第七届开源创新大赛“开源代码评注赛道——智能化开源漏洞工程赛” **一等奖**
 </span>
