@@ -27,5 +27,29 @@ layout: compress
 
     {% include scripts.html %}
 
+    <!-- 左下角访问计数器 -->
+    <div style="position: fixed; bottom: 15px; left: 15px; padding: 5px 10px; background: white; border: 1px solid #ddd; border-radius: 4px; font-size: 12px; z-index: 999; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+      总访问量: <span id="site_visitors"></span> | 总访客数: <span id="site_uv"></span>
+    </div>
+
+    <!-- 不蒜子计数器脚本 -->
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <script>
+      // 显示访问统计数据
+      function displayStats() {
+        if (window.busuanzi) {
+          document.getElementById('site_visitors').textContent = busuanzi.getConfig("site_pv");
+          document.getElementById('site_uv').textContent = busuanzi.getConfig("site_uv");
+        } else {
+          // 如果加载失败，1秒后重试
+          setTimeout(displayStats, 1000);
+        }
+      }
+      
+      // 页面加载完成后开始显示统计
+      window.addEventListener('load', displayStats);
+    </script>
+
   </body>
 </html>
+    
