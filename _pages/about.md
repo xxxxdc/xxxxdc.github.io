@@ -24,8 +24,8 @@ I'm currently a second-year postgraduate student at the School of Cyber Science 
 
   🥇<span style="font-size: 0.8em;">First Prize</span>
   **The 7th Open Source Innovation Competition**
-  *<span style="font-size: 0.8em;">Nov. 2024</span>*
+  <span style="font-size: 0.8em;">Nov. 2024</span>
   
   🥉<span style="font-size: 0.8em;">Third Prize</span>
   **SDU Vulnerability Mining Rank Competition**
-  *<span style="font-size: 0.8em;">May. 2024</span>*
+  <span style="font-size: 0.8em;">May. 2024</span>
