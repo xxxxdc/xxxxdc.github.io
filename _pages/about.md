@@ -27,5 +27,5 @@ I'm currently a second-year postgraduate student at the School of Cyber Science 
   *Nov. 2024*
   
   🥉<span style="font-size: 0.8em;">Third Prize</span>
-  **The Domestic Open-Source Community Vulnerability Mining Competition**
+  **SDU Vulnerability Mining Rank Competition**
   *May. 2024*
