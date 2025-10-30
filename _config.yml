@@ -23,7 +23,7 @@ repository               : "https://xxxxdc.github.io/"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Dongchen XIE"
   pronouns         : # example: "she/her"  
   bio              : "To Be Yourself"
