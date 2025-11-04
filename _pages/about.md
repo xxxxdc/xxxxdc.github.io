@@ -23,6 +23,10 @@ I'm currently a second-year postgraduate student at the School of Cyber Science 
 # <a id="Honors and Awards"></a>Honors and Awards
 <hr style="border: 0; border-top: 1px solid #ddd; margin: 10px 0;">
 
+  🏆
+  **ACM SIGSOFT Distinguished Paper Award**
+  <span style="font-size: 0.8em;">Nov. 2025</span>
+
   🥇<span style="font-size: 0.8em;">First Prize</span>
   **The 7th Open Source Innovation Competition**
   <span style="font-size: 0.8em;">Nov. 2024</span>
