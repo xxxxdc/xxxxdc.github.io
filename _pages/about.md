@@ -23,8 +23,8 @@ I'm currently a second-year postgraduate student at the School of Cyber Science 
 # <a id="Honors and Awards"></a>Honors and Awards
 <hr style="border: 0; border-top: 1px solid #ddd; margin: 10px 0;">
 
-  🏆<span style="font-size: 0.8em;"><span style="color: red;">ACM SIGSOFT Distinguished Paper Award</span>***40th IEEE/ACM International Conference on ASE 2025*** Nov. 2025</span>
+  🏆<span style="font-size: 0.8em;"><span style="color: red;">ACM SIGSOFT Distinguished Paper Award</span>&ensp;***40th IEEE/ACM International Conference on ASE 2025***&ensp;Nov. 2025</span>
 
-  🥇<span style="font-size: 0.8em;"><span style="color: red;">First Prize</span>***The 7th Open Source Innovation Competition***Nov. 2024</span>
+  🥇<span style="font-size: 0.8em;"><span style="color: red;">First Prize</span>&ensp;***The 7th Open Source Innovation Competition***&ensp;Nov. 2024</span>
   
-  🥉<span style="font-size: 0.8em;"><span style="color: red;">Third Prize</span>***SDU Vulnerability Mining Rank Competition***May. 2024</span>
+  🥉<span style="font-size: 0.8em;"><span style="color: red;">Third Prize</span>&ensp;***SDU Vulnerability Mining Rank Competition***&ensp;May. 2024</span>
