@@ -24,7 +24,7 @@ I'm currently a second-year postgraduate student at the School of Cyber Science 
 <hr style="border: 0; border-top: 1px solid #ddd; margin: 10px 0;">
 
   🏆<span style="font-size: 0.8em;color: red;">ACM SIGSOFT Distinguished Paper Award</span>
-  ***ASE 2025***
+  ***40th IEEE/ACM International Conference on ASE 2025***
   <span style="font-size: 0.8em;">Nov. 2025</span>
 
   🥇<span style="font-size: 0.8em;color: red;">First Prize</span>
