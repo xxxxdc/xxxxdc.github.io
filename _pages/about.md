@@ -25,7 +25,7 @@ It is my honor to be advised by [Prof. Xiaoyuan Xie](https://xiaoyuanxie.github.
 # <a id="Honors and Awards"></a>Honors and Awards
 <hr style="border: 0; border-top: 1px solid #ddd; margin: 10px 0;">
 
-  🏆<span style="font-size: 0.8em;"><span style="color: red;">ACM SIGSOFT Distinguished Paper Award</span>&ensp;***40th IEEE/ACM International Conference on ASE 2025***&ensp;Nov. 2025</span>
+  🏆<span style="font-size: 0.8em;"><span style="color: red;">ACM SIGSOFT Distinguished Paper Award</span></span>&ensp**40th IEEE/ACM International Conference on ASE 2025**&ensp;<span style="font-size: 0.8em;">Nov. 2025</span>
 
   🥇<span style="font-size: 0.8em;"><span style="color: red;">First Prize</span>&ensp;***The 7th Open Source Innovation Competition***&ensp;Nov. 2024</span>
   
