@@ -26,10 +26,10 @@ It is my honor to be advised by [Prof. Xiaoyuan Xie](https://xiaoyuanxie.github.
 <hr style="border: 0; border-top: 1px solid #ddd; margin: 10px 0;">
 
 
-  🥇<span style="font-size: 0.8em;color: red;">First Prize</span>&ensp;**China Postgraduate Innovation & Practice Competitions**&ensp;<span style="font-size: 0.8em;">Nov. 2025</span>
+  🥇<span style="font-size: 0.8em;color: red;">First Prize</span>&ensp;**“华为杯”第四届中国研究生网络安全创新大赛**&ensp;<span style="font-size: 0.8em;">Nov. 2025</span>
 
   🏆<span style="font-size: 0.8em;color: red;">ACM SIGSOFT Distinguished Paper Award</span>&ensp;**40th IEEE/ACM International Conference on ASE**&ensp;<span style="font-size: 0.8em;">Nov. 2025</span>
 
-  🥇<span style="font-size: 0.8em;color: red;">First Prize</span>&ensp;**The 7th Open Source Innovation Competition**&ensp;<span style="font-size: 0.8em;">Nov. 2024</span>
+  🥇<span style="font-size: 0.8em;color: red;">First Prize</span>&ensp;**第七届CCF开源创新大赛**&ensp;<span style="font-size: 0.8em;">Nov. 2024</span>
   
-  🥉<span style="font-size: 0.8em;color: red;">Third Prize</span>&ensp;**SDU Vulnerability Mining Rank Competition**&ensp;<span style="font-size: 0.8em;">May. 2024</span>
+  🥉<span style="font-size: 0.8em;color: red;">Third Prize</span>&ensp;**山东大学漏洞挖掘天梯赛**&ensp;<span style="font-size: 0.8em;">May. 2024</span>
