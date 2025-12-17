@@ -26,7 +26,7 @@ It is my honor to be advised by [Prof. Xiaoyuan Xie](https://xiaoyuanxie.github.
 <hr style="border: 0; border-top: 1px solid #ddd; margin: 10px 0;">
 
 
-  🥇<span style="font-size: 0.8em;color: red;">一等奖</span>&ensp;**“华为杯”第四届中国研究生网络安全创新大赛**&ensp;<span style="font-size: 0.8em;">Nov. 2025</span>
+  🥇<span style="font-size: 0.8em;color: red;">一等奖</span>&ensp;**“华为杯”第四届中国研究生网络安全创新大赛**&ensp;<span style="font-size: 0.8em;">Dec. 2025</span>
 
   🏆<span style="font-size: 0.8em;color: red;">ACM SIGSOFT Distinguished Paper Award</span>&ensp;**40th IEEE/ACM International Conference on ASE**&ensp;<span style="font-size: 0.8em;">Nov. 2025</span>
 
