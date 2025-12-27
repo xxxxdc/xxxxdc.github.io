@@ -17,7 +17,7 @@ It is my honor to be advised by [Prof. Xiaoyuan Xie](https://xiaoyuanxie.github.
 <hr style="border: 0; border-top: 1px solid #ddd; margin: 10px 0;">
 
 <span style="white-space: nowrap; display: inline-block;">
-  <span style="background-color: #0052cc; color: white; padding: 2px 6px; border-radius: 2px;">ASE 2025</span> [**Not Every Patch is an Island: LLM-Enhanced Identification of Multiple Vulnerability Patches**](a href="https://conf.researchr.org/details/ase-2025/ase-2025-papers/35/Not-Every-Patch-is-an-Island-LLM-Enhanced-Identification-of-Multiple-Vulnerability-P)
+  <span style="background-color: #0052cc; color: white; padding: 2px 6px; border-radius: 2px;">ASE 2025</span> [**Not Every Patch is an Island: LLM-Enhanced Identification of Multiple Vulnerability Patches**](https://conf.researchr.org/details/ase-2025/ase-2025-papers/35/Not-Every-Patch-is-an-Island-LLM-Enhanced-Identification-of-Multiple-Vulnerability-P)
 </span>
 <br> <span style="font-size: 0.8em;"><u>Yi Song</u>, <u><strong>Dongchen Xie</strong></u>, <u>Lin Xu</u>, He Zhang, Chunying Zhou, Xiaoyuan Xie*</span> 
 <br> <span style="font-size: 0.8em;"><span style="color: red;">🏆 ACM SIGSOFT Distinguished Paper Award </span></span>
