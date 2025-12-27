@@ -20,20 +20,14 @@ It is my honor to be advised by [Prof. Xiaoyuan Xie](https://xiaoyuanxie.github.
   <span style="background-color: #0052cc; color: white; padding: 2px 6px; border-radius: 2px;">FSE'27</span> 
  [ **Maybe** ](https://conf.researchr.org/details/ase-2025/ase-2025-papers/35/Not-Every-Patch-is-an-Island-LLM-Enhanced-Identification-of-Multiple-Vulnerability-P)
 </span>
-<span style="font-size: 0.8em;"><strong>Dongchen Xie</strong></span> 
+<br> <span style="font-size: 0.8em;"><strong>Dongchen Xie</strong></span> 
+
 
 <span style="white-space: nowrap;">
   <span style="background-color: #0052cc; color: white; padding: 2px 6px; border-radius: 2px;">ASE'25</span> 
  [ **Not Every Patch is an Island: LLM-Enhanced Identification of Multiple Vulnerability Patches** ](https://conf.researchr.org/details/ase-2025/ase-2025-papers/35/Not-Every-Patch-is-an-Island-LLM-Enhanced-Identification-of-Multiple-Vulnerability-P)
 </span>
-<span style="font-size: 0.8em;"><u>Yi Song</u>, <u><strong>Dongchen Xie</strong></u>, <u>Lin Xu</u>, He Zhang, Chunying Zhou, Xiaoyuan Xie*</span> 
-<br> <span style="font-size: 0.8em;"><span style="color: red;">🏆 ACM SIGSOFT Distinguished Paper Award </span></span>
-
-<span style="white-space: nowrap;">
-  <span style="background-color: #0052cc; color: white; padding: 2px 6px; border-radius: 2px;">ASE'25</span> 
- [ **Not Every Patch is an Island: LLM-Enhanced Identification of Multiple Vulnerability Patches** ](https://conf.researchr.org/details/ase-2025/ase-2025-papers/35/Not-Every-Patch-is-an-Island-LLM-Enhanced-Identification-of-Multiple-Vulnerability-P)
-</span>
-<span style="font-size: 0.8em;"><u>Yi Song</u>, <u><strong>Dongchen Xie</strong></u>, <u>Lin Xu</u>, He Zhang, Chunying Zhou, Xiaoyuan Xie*</span> 
+<br> <span style="font-size: 0.8em;"><u>Yi Song</u>, <u><strong>Dongchen Xie</strong></u>, <u>Lin Xu</u>, He Zhang, Chunying Zhou, Xiaoyuan Xie*</span> 
 <br> <span style="font-size: 0.8em;"><span style="color: red;">🏆 ACM SIGSOFT Distinguished Paper Award </span></span>
 
 <span style="font-size: 0.8em;">( __ co-first author，&ensp;</span> <span style="font-size: 0.8em;">* corresponding author )</span>
