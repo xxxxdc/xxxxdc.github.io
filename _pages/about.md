@@ -21,12 +21,12 @@ It is my honor to be advised by [Prof. Xiaoyuan Xie](https://xiaoyuanxie.github.
  [ **Not Every Patch is an Island: LLM-Enhanced Identification of Multiple Vulnerability Patches** ](https://conf.researchr.org/details/ase-2025/ase-2025-papers/35/Not-Every-Patch-is-an-Island-LLM-Enhanced-Identification-of-Multiple-Vulnerability-P)
 </span>
 <span style="font-size: 0.8em;"><u>Yi Song</u>, <u><strong>Dongchen Xie</strong></u>, <u>Lin Xu</u>, He Zhang, Chunying Zhou, Xiaoyuan Xie*</span> 
-<br> <span style="font-size: 0.8em;"><span style="color: red;">ACM SIGSOFT Distinguished Paper Award 🏆</span></span>
+<br> <span style="font-size: 0.8em;"><span style="color: red;">🏆 ACM SIGSOFT Distinguished Paper Award </span></span>
 
 <span style="font-size: 0.8em;">( __ co-first author&ensp;</span> <span style="font-size: 0.8em;">* corresponding author )</span>
-# <a id="Honors and Awards"></a>Honors and Awards
-<hr style="border: 0; border-top: 1px solid #ddd; margin: 10px 0;">
 
+# <a id="Honors and Awards"></a>Honors and Awards
+<hr style="border: 0; border-top: 1px solid #ddd; margin: 10px 0;"
 
   🥇<span style="font-size: 0.8em;color: red;">一等奖</span>&ensp;**“华为杯”第四届中国研究生网络安全创新大赛**&ensp;<span style="font-size: 0.8em;">Dec. 2025</span>
 
