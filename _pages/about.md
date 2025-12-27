@@ -16,7 +16,7 @@ It is my honor to be advised by [Prof. Xiaoyuan Xie](https://xiaoyuanxie.github.
 # <a id="Publications"></a>Publications
 <hr style="border: 0; border-top: 1px solid #ddd; margin: 10px 0;">
 
-<span style="font-size: 0.8em;">( __ co-first autho，r&ensp;</span> <span style="font-size: 0.8em;">* corresponding author )</span>
+<span style="font-size: 0.8em;">( __ co-first author，&ensp;</span> <span style="font-size: 0.8em;">* corresponding author )</span>
 
 <span style="white-space: nowrap;">
   <span style="background-color: #0052cc; color: white; padding: 2px 6px; border-radius: 2px;">ASE'25</span> 
