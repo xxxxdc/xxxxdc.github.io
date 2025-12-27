@@ -14,15 +14,17 @@ I'm currently a second-year postgraduate student at the School of Cyber Science 
 It is my honor to be advised by [Prof. Xiaoyuan Xie](https://xiaoyuanxie.github.io/) from the School of Computer Science, WHU. My research interests include, but are not limited to, software security and large language models, especially using AI to tackle some software issues (e.g., patch localization, bug-inducing commit identification).
 
 # <a id="Publications"></a>Publications
+<hr style="border: 0; border-top: 1px solid #ddd; margin: 10px 0;">
 <span style="font-size: 0.8em;">__ co-first author</span> 
+
 <span style="font-size: 0.8em;">* co-first author</span> 
 
-<hr style="border: 0; border-top: 1px solid #ddd; margin: 10px 0;">
+
 <span style="white-space: nowrap;">
   <span style="background-color: #0052cc; color: white; padding: 2px 6px; border-radius: 2px;">ASE'25</span> 
  [ **Not Every Patch is an Island: LLM-Enhanced Identification of Multiple Vulnerability Patches** ](https://conf.researchr.org/details/ase-2025/ase-2025-papers/35/Not-Every-Patch-is-an-Island-LLM-Enhanced-Identification-of-Multiple-Vulnerability-P)
 </span>
-<span style="font-size: 0.8em;"><u>Yi Song<u>, <u>**Dongchen Xie**<u>, <u>Lin Xu<u>, He Zhang, Chunying Zhou, Xiaoyuan Xie*</span> 
+<span style="font-size: 0.8em;"><u>Yi Song</u>, <u>**Dongchen Xie**</u>, <u>Lin Xu</u>, He Zhang, Chunying Zhou, Xiaoyuan Xie*</span> 
 <br> <span style="font-size: 0.8em;">(This paper won the <span style="color: red;">ACM SIGSOFT Distinguished Paper Award 🏆</span> )</span>
 
 # <a id="Honors and Awards"></a>Honors and Awards
