@@ -1,11 +1,13 @@
 ---
 permalink: /
-title: "About Me ([CV](../assets/CV-Dongchen Xie.pdf))"
+title: "Dongchen Xie"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+# <a id="About Me ([CV](../assets/CV-Dongchen Xie.pdf))"></a>aboutme
 <hr style="border: 0; border-top: 1px solid #ddd; margin: 10px 0;">
 Fortunately, I will be a Ph.D. student supervised by [Prof. Heqing Huang](https://5hadowblad3.github.io/) in the Department of Computer Science (CS), [City University of Hong Kong (CityU)](https://www.cityu.edu.hk/) from Fall 2026.
 
