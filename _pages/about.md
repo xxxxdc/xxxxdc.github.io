@@ -26,7 +26,7 @@ redirect_from:
 </style>
 
 <!-- 给手动标题加类名，确保不被隐藏 -->
-<h1 id="aboutme" class="manual-title">About Me ([CV](/assets/CV-Dongchen%20Xie.pdf))</h1>
+<h1 id="aboutme" class="manual-title">About Me ([CV](https://github.com/xxxxdc/xxxxdc.github.io/tree/master/assets/CV-Dongchen%20Xie.pdf))</h1>
 <hr style="border: 0; border-top: 1px solid #ddd; margin: 10px 0;">
 Fortunately, I will be a Ph.D. student supervised by [Prof. Heqing Huang](https://5hadowblad3.github.io/) in the Department of Computer Science (CS), [City University of Hong Kong (CityU)](https://www.cityu.edu.hk/) from Fall 2026.
 
