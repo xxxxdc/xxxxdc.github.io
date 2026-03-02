@@ -1,3 +1,4 @@
+---
 permalink: /
 title: "Dongchen Xie"
 author_profile: true
@@ -7,25 +8,19 @@ redirect_from:
   - /about.html
 ---
 
-<!-- 修复后的CSS：只隐藏主题自动生成的标题，保留手动的About Me -->
+<!-- 新增CSS样式：隐藏自动生成的顶部标题 -->
 <style>
-  /* 1. 只隐藏主题自动生成的标题容器（不影响正文里的h1） */
-  .page-header, .masthead, .site-header, .header-title-container {
+  /* 隐藏主题自动生成的页面标题（通用选择器，适配大部分Jekyll主题） */
+  .page-title, .site-title, .header-title, h1:first-of-type:not(#aboutme) {
     display: none !important;
   }
-  /* 2. 隐藏主题自动生成的独立标题元素（排除带aboutme锚点的） */
-  h1:not([id="aboutme"]):not(.manual-title) {
+  /* 如果上面的选择器没生效，试试这几个（根据主题调整） */
+  .post-title, .entry-title, .main-title {
     display: none !important;
-  }
-  /* 3. 确保手动写的标题正常显示（兜底） */
-  #aboutme, #Publications, #Honors and Awards {
-    display: block !important;
-    visibility: visible !important;
   }
 </style>
 
-<!-- 给手动标题加类名，确保不被隐藏 -->
-<h1 id="aboutme" class="manual-title">About Me ([CV](../assets/CV-Dongchen Xie.pdf))</h1>
+# <a id="aboutme"></a>About Me ([CV](../assets/CV-Dongchen Xie.pdf))
 <hr style="border: 0; border-top: 1px solid #ddd; margin: 10px 0;">
 Fortunately, I will be a Ph.D. student supervised by [Prof. Heqing Huang](https://5hadowblad3.github.io/) in the Department of Computer Science (CS), [City University of Hong Kong (CityU)](https://www.cityu.edu.hk/) from Fall 2026.
 
@@ -33,7 +28,7 @@ I'm currently a second-year postgraduate student at the School of Cyber Science 
 
 It is my honor to be advised by [Prof. Xiaoyuan Xie](https://xiaoyuanxie.github.io/) from the School of Computer Science, WHU. My research interests include, but are not limited to, software security and large language models, especially using AI to tackle some software issues (e.g., patch localization, bug-inducing commit identification).
 
-<h1 id="Publications" class="manual-title">Publications</h1>
+# <a id="Publications"></a>Publications
 <hr style="border: 0; border-top: 1px solid #ddd; margin: 10px 0;">
 
 <span style="white-space: nowrap; display: inline-block;">
@@ -43,8 +38,7 @@ It is my honor to be advised by [Prof. Xiaoyuan Xie](https://xiaoyuanxie.github.
 <br> <span style="font-size: 0.8em;"><span style="color: red;">🏆 ACM SIGSOFT Distinguished Paper Award </span></span>
 
 <span style="font-size: 0.8em;">( __ co-first author，&ensp;</span> <span style="font-size: 0.8em;">* corresponding author )</span>
-
-<h1 id="Honors and Awards" class="manual-title">Honors and Awards</h1>
+# <a id="Honors and Awards"></a>Honors and Awards
 <hr style="border: 0; border-top: 1px solid #ddd; margin: 10px 0;">
 
   🥇<span style="font-size: 0.8em;color: red;">一等奖</span>&ensp;**“华为杯”第四届中国研究生网络安全创新大赛**&ensp;<span style="font-size: 0.8em;">Dec. 2025</span>
