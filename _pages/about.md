@@ -2,6 +2,7 @@
 permalink: /
 title: "Dongchen Xie"
 author_profile: true
+header: false  # 新增：关闭主题自带的头部标题栏
 redirect_from: 
   - /about/
   - /about.html
