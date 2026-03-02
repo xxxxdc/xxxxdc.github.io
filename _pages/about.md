@@ -14,10 +14,7 @@ redirect_from:
   .page-title, .site-title, .header-title, h1:first-of-type:not(#aboutme) {
     display: none !important;
   }
-  /* 如果上面的选择器没生效，试试这几个（根据主题调整） */
-  .post-title, .entry-title, .main-title {
-    display: none !important;
-  }
+
 </style>
 
 # <a id="aboutme"></a>About Me ([CV](../assets/CV-Dongchen Xie.pdf))
