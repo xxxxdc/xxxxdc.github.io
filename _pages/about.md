@@ -8,6 +8,18 @@ redirect_from:
   - /about.html
 ---
 
+<!-- 新增CSS样式：隐藏自动生成的顶部标题 -->
+<style>
+  /* 隐藏主题自动生成的页面标题（通用选择器，适配大部分Jekyll主题） */
+  .page-title, .site-title, .header-title, h1:first-of-type:not(#aboutme) {
+    display: none !important;
+  }
+  /* 如果上面的选择器没生效，试试这几个（根据主题调整） */
+  .post-title, .entry-title, .main-title {
+    display: none !important;
+  }
+</style>
+
 # <a id="aboutme"></a>About Me ([CV](../assets/CV-Dongchen Xie.pdf))
 <hr style="border: 0; border-top: 1px solid #ddd; margin: 10px 0;">
 Fortunately, I will be a Ph.D. student supervised by [Prof. Heqing Huang](https://5hadowblad3.github.io/) in the Department of Computer Science (CS), [City University of Hong Kong (CityU)](https://www.cityu.edu.hk/) from Fall 2026.
