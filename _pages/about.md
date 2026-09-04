@@ -28,9 +28,11 @@ redirect_from:
 <!-- 给手动标题加类名，确保不被隐藏 -->
 <h1 id="aboutme" class="manual-title">About Me (<a href=".../assets/CV-Dongchen_Xie.pdf">CV</a>)</h1>
 <hr style="border: 0; border-top: 1px solid #ddd; margin: 10px 0;">
+Welcome to Dongchen's homepage!
+
 I'm currently a first-year Ph.D. student, supervised by [Prof. Heqing Huang](https://5hadowblad3.github.io/) in the Department of Computer Science (CS), [City University of Hong Kong (CityUHK)](https://www.cityu.edu.hk/) starting from Fall 2026.
 
-Fortunately, I completed my postgraduate studies at the School of Cyber Science and Engineering (CSE), [Wuhan University (WHU)](https://www.whu.edu.cn/), advised by [Prof. Xiaoyuan Xie](https://xiaoyuanxie.github.io/) from the School of Computer Science, WHU.  I received my Bachelor's degree from the School of Cyber Science and Technology (CST), [Shandong University (SDU)](https://cst.qd.sdu.edu.cn/) in 2024.
+Fortunately, I completed my postgraduate studies at the School of Cyber Science and Engineering (CSE), [Wuhan University (WHU)](https://www.whu.edu.cn/) in 2026, advised by [Prof. Xiaoyuan Xie](https://xiaoyuanxie.github.io/) from the School of Computer Science, WHU.  I received my Bachelor's degree from the School of Cyber Science and Technology (CST), [Shandong University (SDU)](https://cst.qd.sdu.edu.cn/) in 2024.
 
 My research interests include, but are not limited to, software security and large language models, especially using AI to tackle some software issues.
 
