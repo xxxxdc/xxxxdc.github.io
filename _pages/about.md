@@ -53,7 +53,7 @@ My research interests include, but are not limited to, software security and lar
 
 <h1 id="Teaching Experience" class="manual-title">Teaching Experience</h1>
 <hr style="border: 0; border-top: 1px solid #ddd; margin: 10px 0;">
-<span style="white-space: nowrap; display: inline-block;">TA of CityUHK CS8695 Research in Computer Science(Fall 2026)</span>
+<span style="white-space: nowrap; display: inline-block;">TA of CityUHK-CS8695 Research in Computer Science(Fall 2026)</span>
 
 
 <h1 id="Honors and Awards" class="manual-title">Honors and Awards</h1>
