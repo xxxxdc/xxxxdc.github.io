@@ -45,7 +45,7 @@ redirect_from:
   .academic-section h2 { margin: 0 0 16px; padding-bottom: .5em; border-bottom: 1px solid #dce3e5; color: #27333a; font-family: 'DM Sans', Arial, sans-serif; font-size: 17px; font-weight: 600; }
   .academic-bio { color: #52616a; font-size: 13px; line-height: 1.8; }
   .academic-row { display: grid; grid-template-columns: 145px minmax(0, 1fr); gap: 18px; align-items: start; margin: 15px 0; font-size: 12px; line-height: 1.65; }
-  .academic-date { white-space: nowrap; font-weight: 700; }
+  .academic-date { white-space: nowrap; color: #597380; font-family: 'DM Mono', Consolas, monospace; font-size: 12px; font-weight: 500; letter-spacing: 0; }
   #publication { overflow-x: auto; }
   .academic-pub { width: max-content; min-width: 100%; grid-template-columns: 145px max-content; margin: 17px 0; }
   .academic-pub-title { font-size: 13px; font-weight: 700; white-space: nowrap; }
