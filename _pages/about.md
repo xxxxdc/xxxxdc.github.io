@@ -1,5 +1,6 @@
 ---
 permalink: /
+browser_title: "Dongchen's Homepage"
 author_profile: false
 header: false
 redirect_from:
@@ -23,7 +24,7 @@ redirect_from:
   .page { max-width: 1080px; }
   .page__content { padding-top: 2.5em; }
   .academic-home { color: #303941; font-family: 'DM Sans', Arial, sans-serif; font-size: 13px; }
-  .academic-hero { display: grid; grid-template-columns: minmax(0, 1fr) 220px; gap: 44px; align-items: center; padding: 26px 28px; border-radius: 18px; background: #fff; }
+  .academic-hero { display: grid; grid-template-columns: minmax(0, 1fr) 190px; gap: 44px; align-items: center; padding: 26px 28px; border-radius: 18px; background: #fff; }
   .academic-kicker, .academic-date, .academic-venue { color: #657782; font-family: 'DM Mono', Consolas, monospace; letter-spacing: .015em; }
   .academic-kicker { font-size: 10px; text-transform: uppercase; letter-spacing: .09em; }
   .academic-date, .academic-venue { font-size: 12px; }
@@ -40,7 +41,7 @@ redirect_from:
   .academic-like[aria-pressed="true"] { border-color: #edc8cd; }
   .academic-like[aria-pressed="true"] .like-heart { fill: #e58e9b; stroke: #e58e9b; transform: scale(1.08); }
   .academic-like:disabled { cursor: default; opacity: .7; }
-  .academic-portrait { display: block; width: 220px; height: 220px; border: 1px solid #dce4e5; border-radius: 50%; background: #edf1f2; box-shadow: 0 8px 24px #21364212; object-fit: cover; object-position: center 25%; }
+  .academic-portrait { display: block; width: 190px; height: 190px; border: 1px solid #dce4e5; border-radius: 50%; background: #edf1f2; box-shadow: 0 8px 24px #21364212; object-fit: cover; object-position: center 25%; }
   .academic-section { margin-top: 38px; scroll-margin-top: 78px; }
   .academic-section h2 { margin: 0 0 16px; padding-bottom: .5em; border-bottom: 1px solid #dce3e5; color: #27333a; font-family: 'DM Sans', Arial, sans-serif; font-size: 17px; font-weight: 600; }
   .academic-bio { color: #52616a; font-size: 13px; line-height: 1.8; }
@@ -58,8 +59,8 @@ redirect_from:
   .academic-teaching { white-space: nowrap; overflow-x: auto; }
   @media (max-width: 700px) {
     .page__content { padding-top: 1.4em; }
-    .academic-hero { grid-template-columns: minmax(0, 1fr) 118px; gap: 14px; align-items: start; padding: 20px 16px; }
-    .academic-portrait { width: 118px; height: 118px; margin-top: 10px; }
+    .academic-hero { grid-template-columns: minmax(0, 1fr) 108px; gap: 14px; align-items: start; padding: 20px 16px; }
+    .academic-portrait { width: 108px; height: 108px; margin-top: 10px; }
     .academic-name { font-size: clamp(19px, 5.5vw, 32px); }
     .academic-name .cn-name { font-size: .55em; }
     .academic-affiliation { font-size: 13px; }
@@ -70,8 +71,8 @@ redirect_from:
     .academic-nav-links a { font-size: 10px; }
   }
   @media (max-width: 430px) {
-    .academic-hero { grid-template-columns: minmax(0, 1fr) 82px; gap: 10px; padding: 18px 12px; }
-    .academic-portrait { width: 82px; height: 82px; }
+    .academic-hero { grid-template-columns: minmax(0, 1fr) 76px; gap: 10px; padding: 18px 12px; }
+    .academic-portrait { width: 76px; height: 76px; }
     .academic-name { font-size: clamp(17px, 5vw, 21px); letter-spacing: -.04em; }
     .academic-name .cn-name { font-size: .52em; }
   }
@@ -82,7 +83,7 @@ redirect_from:
     <div>
       <div class="academic-kicker">PH.D. STUDENT · COMPUTER SCIENCE</div>
       <h1 class="academic-name">Dongchen Xie <span class="cn-name">(谢东辰)</span></h1>
-      <p class="academic-affiliation">Software Security &amp; LLM</p>
+      <p class="academic-affiliation">CityU · Software Security &amp; LLM</p>
       <div class="academic-links">
         <a href="https://scholar.google.com/citations?user=N6o4bLQAAAAJ&amp;hl=zh-CN">Google Scholar ↗</a>
         <a href="https://github.com/xxxxdc">GitHub ↗</a>
