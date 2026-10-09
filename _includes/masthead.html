@@ -5,7 +5,7 @@
     <div class="masthead__menu">
       {% if page.url == "/" %}
       <nav id="site-nav" class="academic-nav" aria-label="Primary navigation">
-        <a class="academic-nav-home" href="{{ base_path }}/">{{ site.title }}</a>
+        <a class="academic-nav-home" href="{{ base_path }}/">Homepage</a>
         <div class="academic-nav-links">
           {% for link in site.data.navigation.main %}
             <a href="{{ base_path }}{{ link.url }}">{{ link.title }}</a>

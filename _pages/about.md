@@ -1,6 +1,6 @@
 ---
 permalink: /
-browser_title: "Dongchen's Homepage"
+browser_title: "Dongchen Xie"
 author_profile: false
 header: false
 redirect_from:
@@ -41,7 +41,7 @@ redirect_from:
   .academic-like[aria-pressed="true"] { border-color: #edc8cd; }
   .academic-like[aria-pressed="true"] .like-heart { fill: #e58e9b; stroke: #e58e9b; transform: scale(1.08); }
   .academic-like:disabled { cursor: default; opacity: .7; }
-  .academic-portrait { display: block; width: 190px; height: 190px; border: 1px solid #dce4e5; border-radius: 50%; background: #edf1f2; box-shadow: 0 8px 24px #21364212; object-fit: cover; object-position: center 25%; }
+  .academic-portrait { display: block; width: 190px; height: 190px; border: 1px solid #dce4e5; border-radius: 50%; background: #edf1f2; box-shadow: 0 8px 24px #21364212; object-fit: contain; object-position: center; }
   .academic-section { margin-top: 38px; scroll-margin-top: 78px; }
   .academic-section h2 { margin: 0 0 16px; padding-bottom: .5em; border-bottom: 1px solid #dce3e5; color: #27333a; font-family: 'DM Sans', Arial, sans-serif; font-size: 17px; font-weight: 600; }
   .academic-bio { color: #52616a; font-size: 13px; line-height: 1.8; }
