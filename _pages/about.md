@@ -81,9 +81,9 @@ redirect_from:
 <div class="academic-home">
   <header class="academic-hero">
     <div>
-      <div class="academic-kicker">PH.D. STUDENT · COMPUTER SCIENCE</div>
+      <div class="academic-kicker">PH.D. STUDENT · CITYU</div>
       <h1 class="academic-name">Dongchen Xie <span class="cn-name">(谢东辰)</span></h1>
-      <p class="academic-affiliation">CityU · Software Security &amp; LLM</p>
+      <p class="academic-affiliation">Computer Science · Software Security &amp; LLM</p>
       <div class="academic-links">
         <a href="https://scholar.google.com/citations?user=N6o4bLQAAAAJ&amp;hl=zh-CN">Google Scholar ↗</a>
         <a href="https://github.com/xxxxdc">GitHub ↗</a>
