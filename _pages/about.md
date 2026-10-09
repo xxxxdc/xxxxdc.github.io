@@ -34,6 +34,12 @@ redirect_from:
   .academic-links { display: flex; flex-wrap: wrap; gap: 9px; }
   .academic-links a { padding: 7px 11px; border: 1px solid #d5dde1; border-radius: 999px; color: #435d6b; font-size: 11px; text-decoration: none; }
   .academic-links a:hover { border-color: #647f8d; background: #f5f8f9; }
+  .academic-links .academic-like { display: inline-flex; align-items: center; gap: 5px; padding: 7px 11px; border: 1px solid #d5dde1; border-radius: 999px; background: #fff; color: #435d6b; font: inherit; font-size: 11px; line-height: 1.4; cursor: pointer; }
+  .academic-links .academic-like:hover { border-color: #d69aa2; background: #fffafa; }
+  .academic-like .like-heart { color: #6f7d84; font-size: 16px; line-height: 1; transition: color .18s ease, transform .18s ease; }
+  .academic-like[aria-pressed="true"] { border-color: #edc8cd; }
+  .academic-like[aria-pressed="true"] .like-heart { color: #e58e9b; transform: scale(1.08); }
+  .academic-like:disabled { cursor: default; opacity: .7; }
   .academic-portrait { display: block; width: 220px; height: 220px; border: 1px solid #dce4e5; border-radius: 50%; background: #edf1f2; box-shadow: 0 8px 24px #21364212; object-fit: cover; object-position: center 25%; }
   .academic-section { margin-top: 38px; scroll-margin-top: 78px; }
   .academic-section h2 { margin: 0 0 16px; padding-bottom: .5em; border-bottom: 1px solid #dce3e5; color: #27333a; font-family: 'DM Sans', Arial, sans-serif; font-size: 17px; font-weight: 600; }
@@ -81,6 +87,9 @@ redirect_from:
         <a href="https://scholar.google.com/citations?user=N6o4bLQAAAAJ&amp;hl=zh-CN">Google Scholar ↗</a>
         <a href="https://github.com/xxxxdc">GitHub ↗</a>
         <a href="mailto:dongchxie3-c@my.cityu.edu.hk">Email ↗</a>
+        <button class="academic-like" id="homepage-like" type="button" aria-pressed="false" aria-label="Like this homepage">
+          <span class="like-heart" aria-hidden="true">♡</span><span>Likes</span><span id="homepage-like-count" aria-live="polite">…</span>
+        </button>
       </div>
     </div>
     <img class="academic-portrait" src="/images/dongchen-xie-portrait.png" alt="Dongchen Xie">
@@ -119,3 +128,49 @@ redirect_from:
     <div class="academic-award-row"><div class="academic-date">May. 2024</div><div><strong>三等奖</strong>　山东大学漏洞挖掘天梯赛</div></div>
   </section>
 </div>
+
+<script>
+  (() => {
+    const button = document.getElementById('homepage-like');
+    const count = document.getElementById('homepage-like-count');
+    if (!button || !count) return;
+
+    const counterUrl = 'https://counterapi.com/api/xxxxdc.github.io/vote/homepage-likes';
+    const storageKey = 'xxxxdc-homepage-liked-v1';
+    const liked = () => {
+      try { return localStorage.getItem(storageKey) === '1'; }
+      catch (_) { return false; }
+    };
+    const setLiked = value => {
+      button.setAttribute('aria-pressed', value ? 'true' : 'false');
+      if (value) button.querySelector('.like-heart').textContent = '♥';
+    };
+    const showCount = value => {
+      const safeValue = Number.isFinite(Number(value)) ? Number(value) : 0;
+      count.textContent = safeValue.toLocaleString();
+      button.setAttribute('aria-label', `Like this homepage, ${count.textContent} likes`);
+    };
+
+    setLiked(liked());
+    fetch(`${counterUrl}?readOnly=true`, { cache: 'no-store' })
+      .then(response => response.ok ? response.json() : Promise.reject())
+      .then(data => showCount(data.value));
+
+    button.addEventListener('click', async () => {
+      if (liked() || button.disabled) return;
+      button.disabled = true;
+      try {
+        const response = await fetch(counterUrl, { cache: 'no-store' });
+        if (!response.ok) throw new Error('Could not record this like');
+        const data = await response.json();
+        showCount(data.value);
+        try { localStorage.setItem(storageKey, '1'); } catch (_) {}
+        setLiked(true);
+      } catch (_) {
+        button.setAttribute('aria-label', 'Like counter is temporarily unavailable');
+      } finally {
+        button.disabled = false;
+      }
+    });
+  })();
+</script>
