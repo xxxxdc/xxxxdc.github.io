@@ -81,7 +81,7 @@ redirect_from:
 <div class="academic-home">
   <header class="academic-hero">
     <div>
-      <div class="academic-kicker">PH.D. STUDENT · CITYU</div>
+      <div class="academic-kicker">PH.D. STUDENT · CITY UNIVERSITY OF HONG KONG</div>
       <h1 class="academic-name">Dongchen Xie <span class="cn-name">(谢东辰)</span></h1>
       <p class="academic-affiliation">Computer Science · Software Security &amp; LLM</p>
       <div class="academic-links">
@@ -118,7 +118,7 @@ redirect_from:
 
   <section class="academic-section" id="teaching">
     <h2>Teaching</h2>
-    <div class="academic-row"><div class="academic-date">Fall 2026</div><div class="academic-teaching">TA · CS2311 Computer Programming</div></div>
+    <div class="academic-row"><div class="academic-date">Fall 2026</div><div class="academic-teaching">Teaching Assistant · CS2311 Computer Programming</div></div>
   </section>
 
   <section class="academic-section" id="award">
