@@ -40,7 +40,8 @@ redirect_from:
   .academic-pub-title { font-weight: 700; white-space: nowrap; }
   .academic-meta { color: #59666e; font-size: .88em; line-height: 1.8; }
   .academic-status { color: #77858b; font-size: .82em; }
-  .academic-notes { margin: 12px 0 0 163px; color: #77858b; font-size: .82em; }
+  .academic-award-badge { display: inline-block; margin-top: 5px; padding: 3px 8px; border-radius: 5px; background: #f6eddb; color: #946623; font-size: 11px; font-weight: 500; line-height: 1.5; }
+  .page__content p.academic-notes { margin: 10px 0 0 163px; color: #77858b; font-size: 11px; line-height: 1.5; }
   .academic-award-emphasis { color: #202a31; font-weight: 700; }
   .academic-award-row { display: grid; grid-template-columns: 145px minmax(0, 1fr); gap: 18px; margin: 12px 0; line-height: 1.7; }
   .academic-teaching { white-space: nowrap; overflow-x: auto; }
@@ -52,7 +53,7 @@ redirect_from:
     .academic-name .cn-name { font-size: .56em; }
     .academic-affiliation { font-size: .9em; }
     .academic-row, .academic-award-row { grid-template-columns: 112px minmax(0, 1fr); gap: 10px; font-size: .92em; }
-    .academic-notes { margin-left: 122px; }
+    .page__content p.academic-notes { margin-left: 122px; }
   }
 </style>
 
@@ -87,7 +88,7 @@ redirect_from:
   <section class="academic-section" id="publication">
     <h2>Publication</h2>
     <article class="academic-row academic-pub"><div class="academic-date">FSE 2027<br><span class="academic-status">Under Review</span></div><div><div class="academic-pub-title">COMPASS: Predicting the Relationship of Multiple Patches for Vulnerabilities with LLMs</div><div class="academic-meta">Yi Song<sup>†</sup>, <strong>Dongchen Xie<sup>†</sup></strong>, Xiaoyuan Xie<sup>*</sup>, He Zhang, Lin Xu, Chunying Zhou</div></div></article>
-    <article class="academic-row academic-pub"><div class="academic-date">ASE 2025</div><div><div class="academic-pub-title"><a href="https://ieeexplore.ieee.org/document/11334340">Not Every Patch is an Island: LLM-Enhanced Identification of Multiple Vulnerability Patches</a></div><div class="academic-meta">Yi Song<sup>†</sup>, <strong>Dongchen Xie<sup>†</sup></strong>, Lin Xu<sup>†</sup>, He Zhang, Chunying Zhou, Xiaoyuan Xie<sup>*</sup><br><span class="academic-award-emphasis">ACM SIGSOFT Distinguished Paper Award</span></div></div></article>
+    <article class="academic-row academic-pub"><div class="academic-date">ASE 2025</div><div><div class="academic-pub-title"><a href="https://ieeexplore.ieee.org/document/11334340">Not Every Patch is an Island: LLM-Enhanced Identification of Multiple Vulnerability Patches</a></div><div class="academic-meta">Yi Song<sup>†</sup>, <strong>Dongchen Xie<sup>†</sup></strong>, Lin Xu<sup>†</sup>, He Zhang, Chunying Zhou, Xiaoyuan Xie<sup>*</sup><br><span class="academic-award-badge">★ ACM SIGSOFT Distinguished Paper Award</span></div></div></article>
     <p class="academic-notes">† Co-first authors · * Corresponding author</p>
   </section>
 
