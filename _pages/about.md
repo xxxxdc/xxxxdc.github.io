@@ -36,9 +36,9 @@ redirect_from:
   .academic-links a:hover { border-color: #647f8d; background: #f5f8f9; }
   .academic-links .academic-like { display: inline-flex; align-items: center; gap: 5px; padding: 7px 11px; border: 1px solid #d5dde1; border-radius: 999px; background: #fff; color: #435d6b; font: inherit; font-size: 11px; line-height: 1.4; cursor: pointer; }
   .academic-links .academic-like:hover { border-color: #d69aa2; background: #fffafa; }
-  .academic-like .like-heart { color: #6f7d84; font-size: 16px; line-height: 1; transition: color .18s ease, transform .18s ease; }
+  .academic-like .like-heart { width: 15px; height: 15px; flex: 0 0 15px; fill: transparent; stroke: #6f7d84; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; transition: fill .18s ease, stroke .18s ease, transform .18s ease; }
   .academic-like[aria-pressed="true"] { border-color: #edc8cd; }
-  .academic-like[aria-pressed="true"] .like-heart { color: #e58e9b; transform: scale(1.08); }
+  .academic-like[aria-pressed="true"] .like-heart { fill: #e58e9b; stroke: #e58e9b; transform: scale(1.08); }
   .academic-like:disabled { cursor: default; opacity: .7; }
   .academic-portrait { display: block; width: 220px; height: 220px; border: 1px solid #dce4e5; border-radius: 50%; background: #edf1f2; box-shadow: 0 8px 24px #21364212; object-fit: cover; object-position: center 25%; }
   .academic-section { margin-top: 38px; scroll-margin-top: 78px; }
@@ -88,7 +88,7 @@ redirect_from:
         <a href="https://github.com/xxxxdc">GitHub ↗</a>
         <a href="mailto:dongchxie3-c@my.cityu.edu.hk">Email ↗</a>
         <button class="academic-like" id="homepage-like" type="button" aria-pressed="false" aria-label="Like this homepage">
-          <span class="like-heart" aria-hidden="true">♡</span><span>Likes</span><span id="homepage-like-count" aria-live="polite">…</span>
+          <svg class="like-heart" aria-hidden="true" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78Z"/></svg><span>Likes</span><span id="homepage-like-count" aria-live="polite">…</span>
         </button>
       </div>
     </div>
@@ -143,7 +143,6 @@ redirect_from:
     };
     const setLiked = value => {
       button.setAttribute('aria-pressed', value ? 'true' : 'false');
-      if (value) button.querySelector('.like-heart').textContent = '♥';
     };
     const showCount = value => {
       const safeValue = Number.isFinite(Number(value)) ? Number(value) : 0;
