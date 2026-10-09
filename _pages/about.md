@@ -135,8 +135,9 @@ redirect_from:
     const count = document.getElementById('homepage-like-count');
     if (!button || !count) return;
 
-    const counterUrl = 'https://counterapi.com/api/xxxxdc.github.io/vote/homepage-likes';
-    const storageKey = 'xxxxdc-homepage-liked-v2';
+    const counterGetUrl = 'https://countapi.mileshilliard.com/api/v1/get/xxxxdc-homepage-likes-39988de32a5a4b55bc7edcf04e05204d';
+    const counterHitUrl = 'https://countapi.mileshilliard.com/api/v1/hit/xxxxdc-homepage-likes-39988de32a5a4b55bc7edcf04e05204d';
+    const storageKey = 'xxxxdc-homepage-liked-v3';
     const liked = () => {
       try { return localStorage.getItem(storageKey) === '1'; }
       catch (_) { return false; }
@@ -151,7 +152,7 @@ redirect_from:
     };
 
     setLiked(liked());
-    fetch(`${counterUrl}?readOnly=true`, { cache: 'no-store' })
+    fetch(counterGetUrl, { cache: 'no-store' })
       .then(response => response.ok ? response.json() : Promise.reject())
       .then(data => showCount(data.value));
 
@@ -159,7 +160,7 @@ redirect_from:
       if (liked() || button.disabled) return;
       button.disabled = true;
       try {
-        const response = await fetch(`${counterUrl}?behavior=vote`, { cache: 'no-store' });
+        const response = await fetch(counterHitUrl, { cache: 'no-store' });
         if (!response.ok) throw new Error('Could not record this like');
         const data = await response.json();
         showCount(data.value);
