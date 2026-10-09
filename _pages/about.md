@@ -9,6 +9,7 @@ redirect_from:
 ---
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Noto+Serif+SC:wght@400;500;600&display=swap');
   html, body { background-color: #f8fbfe !important; }
   .masthead { position: sticky; background: rgba(244, 249, 253, .94); backdrop-filter: blur(12px); }
   .masthead::after { background: #e2eaf0; }
@@ -20,38 +21,39 @@ redirect_from:
   .masthead__menu-item--lg { padding-right: 2.1em; font-weight: 700; }
   .page { max-width: 1080px; }
   .page__content { padding-top: 2.5em; }
-  .academic-home { color: #303941; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  .academic-home { color: #303941; font-family: 'DM Sans', Arial, sans-serif; font-size: 13px; }
   .academic-hero { display: grid; grid-template-columns: minmax(0, 1fr) 220px; gap: 44px; align-items: center; padding: 26px 28px; border-radius: 18px; background: linear-gradient(115deg, rgba(222, 237, 250, .48), rgba(237, 246, 253, .22)); }
-  .academic-kicker, .academic-date, .academic-venue { color: #657782; font-family: "SFMono-Regular", Consolas, monospace; font-size: .78em; letter-spacing: .015em; }
-  .academic-name { margin: .28em 0 .18em; color: #202a31; font-family: Georgia, "Times New Roman", serif; font-size: clamp(2.1em, 5vw, 3em); font-weight: 600; letter-spacing: -.035em; line-height: 1.16; }
-  .academic-name .cn-name { color: #74818a; font-family: "Noto Serif SC", "Songti SC", SimSun, serif; font-size: .48em; font-weight: 500; letter-spacing: 0; white-space: nowrap; }
-  .academic-affiliation { margin: .5em 0 1em; color: #65727a; font-size: 1.02em; }
+  .academic-kicker, .academic-date, .academic-venue { color: #657782; font-family: 'DM Mono', Consolas, monospace; letter-spacing: .015em; }
+  .academic-kicker { font-size: 10px; text-transform: uppercase; letter-spacing: .09em; }
+  .academic-date, .academic-venue { font-size: 12px; }
+  .academic-name { margin: .28em 0 .18em; color: #202a31; font-family: 'Playfair Display', Georgia, serif; font-size: 48px; font-weight: 600; letter-spacing: -.035em; line-height: 1.05; }
+  .academic-name .cn-name { color: #74818a; font-family: 'Noto Serif SC', 'Songti SC', SimSun, serif; font-size: 1em; font-weight: 500; letter-spacing: 0; white-space: nowrap; }
+  .academic-affiliation { margin: .5em 0 1em; color: #65727a; font-size: 15px; }
   .academic-links { display: flex; flex-wrap: wrap; gap: 9px; }
-  .academic-links a { padding: 6px 11px; border: 1px solid #d5dde1; border-radius: 999px; color: #435d6b; font-size: .84em; text-decoration: none; }
+  .academic-links a { padding: 7px 11px; border: 1px solid #d5dde1; border-radius: 999px; color: #435d6b; font-size: 11px; text-decoration: none; }
   .academic-links a:hover { border-color: #647f8d; background: #f5f8f9; }
   .academic-portrait { display: block; width: 220px; height: 220px; border: 1px solid #dce4e5; border-radius: 50%; background: #edf1f2; box-shadow: 0 8px 24px #21364212; object-fit: cover; object-position: center 25%; }
   .academic-section { margin-top: 38px; scroll-margin-top: 78px; }
-  .academic-section h2 { margin: 0 0 16px; padding-bottom: .5em; border-bottom: 1px solid #dce3e5; color: #27333a; font-family: Georgia, "Times New Roman", serif; font-size: 1.35em; font-weight: 600; }
-  .academic-bio { color: #52616a; font-size: .98em; line-height: 1.85; }
-  .academic-row { display: grid; grid-template-columns: 145px minmax(0, 1fr); gap: 18px; align-items: start; margin: 15px 0; line-height: 1.7; }
+  .academic-section h2 { margin: 0 0 16px; padding-bottom: .5em; border-bottom: 1px solid #dce3e5; color: #27333a; font-family: 'Playfair Display', Georgia, serif; font-size: 18px; font-weight: 600; }
+  .academic-bio { color: #52616a; font-size: 13px; line-height: 1.8; }
+  .academic-row { display: grid; grid-template-columns: 145px minmax(0, 1fr); gap: 18px; align-items: start; margin: 15px 0; font-size: 12px; line-height: 1.65; }
   .academic-date { white-space: nowrap; font-weight: 700; }
   #publication { overflow-x: auto; }
   .academic-pub { width: max-content; min-width: 100%; grid-template-columns: 145px max-content; margin: 17px 0; }
-  .academic-pub-title { font-weight: 700; white-space: nowrap; }
-  .academic-meta { color: #59666e; font-size: .88em; line-height: 1.8; }
-  .academic-status { color: #77858b; font-size: .82em; }
-  .academic-award-badge { display: inline-block; margin-top: 5px; padding: 3px 8px; border-radius: 5px; background: #f6eddb; color: #946623; font-size: 11px; font-weight: 500; line-height: 1.5; }
-  .page__content p.academic-notes { margin: 10px 0 0 163px; color: #77858b; font-size: 11px; line-height: 1.5; }
+  .academic-pub-title { font-size: 13px; font-weight: 700; white-space: nowrap; }
+  .academic-meta { color: #59666e; font-size: 11px; line-height: 1.7; }
+  .academic-status { color: #77858b; font-size: 10px; }
+  .academic-award-badge { display: inline-block; margin-top: 5px; padding: 3px 8px; border-radius: 5px; background: #f6eddb; color: #946623; font-size: 10px; font-weight: 500; line-height: 1.5; }
+  .page__content p.academic-notes { margin: 10px 0 0 163px; color: #77858b; font-size: 10px; line-height: 1.5; }
   .academic-award-emphasis { color: #202a31; font-weight: 700; }
-  .academic-award-row { display: grid; grid-template-columns: 145px minmax(0, 1fr); gap: 18px; margin: 12px 0; line-height: 1.7; }
+  .academic-award-row { display: grid; grid-template-columns: 145px minmax(0, 1fr); gap: 18px; margin: 12px 0; font-size: 12px; line-height: 1.7; }
   .academic-teaching { white-space: nowrap; overflow-x: auto; }
   @media (max-width: 700px) {
     .page__content { padding-top: 1.4em; }
     .academic-hero { grid-template-columns: minmax(0, 1fr) 118px; gap: 14px; align-items: start; padding: 20px 16px; }
     .academic-portrait { width: 118px; height: 118px; margin-top: 10px; }
-    .academic-name { font-size: clamp(1.65em, 7vw, 2.25em); }
-    .academic-name .cn-name { font-size: .56em; }
-    .academic-affiliation { font-size: .9em; }
+    .academic-name { font-size: clamp(25px, 6vw, 36px); }
+    .academic-affiliation { font-size: 13px; }
     .academic-row, .academic-award-row { grid-template-columns: 112px minmax(0, 1fr); gap: 10px; font-size: .92em; }
     .page__content p.academic-notes { margin-left: 122px; }
   }
