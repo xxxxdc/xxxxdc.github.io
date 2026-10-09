@@ -122,10 +122,10 @@ redirect_from:
 
   <section class="academic-section" id="award">
     <h2>Award</h2>
-    <div class="academic-award-row"><div class="academic-date">Dec. 2025</div><div><strong>一等奖</strong>　“华为杯”第四届中国研究生网络安全创新大赛</div></div>
-    <div class="academic-award-row"><div class="academic-date">Nov. 2025</div><div><strong>ACM SIGSOFT Distinguished Paper Award</strong>　40th IEEE/ACM International Conference on ASE</div></div>
-    <div class="academic-award-row"><div class="academic-date">Nov. 2024</div><div><strong>一等奖</strong>　第七届CCF开源创新大赛</div></div>
-    <div class="academic-award-row"><div class="academic-date">May. 2024</div><div><strong>三等奖</strong>　山东大学漏洞挖掘天梯赛</div></div>
+    <div class="academic-award-row"><div class="academic-date">2025.12</div><div><strong>一等奖</strong>　“华为杯”第四届中国研究生网络安全创新大赛</div></div>
+    <div class="academic-award-row"><div class="academic-date">2025.11</div><div><strong>ACM SIGSOFT Distinguished Paper Award</strong>　40th IEEE/ACM International Conference on ASE</div></div>
+    <div class="academic-award-row"><div class="academic-date">2024.11</div><div><strong>一等奖</strong>　第七届CCF开源创新大赛</div></div>
+    <div class="academic-award-row"><div class="academic-date">2024.05</div><div><strong>三等奖</strong>　山东大学漏洞挖掘天梯赛</div></div>
   </section>
 </div>
 
