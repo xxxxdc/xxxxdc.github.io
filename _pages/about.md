@@ -136,7 +136,7 @@ redirect_from:
     if (!button || !count) return;
 
     const counterUrl = 'https://counterapi.com/api/xxxxdc.github.io/vote/homepage-likes';
-    const storageKey = 'xxxxdc-homepage-liked-v1';
+    const storageKey = 'xxxxdc-homepage-liked-v2';
     const liked = () => {
       try { return localStorage.getItem(storageKey) === '1'; }
       catch (_) { return false; }
@@ -159,7 +159,7 @@ redirect_from:
       if (liked() || button.disabled) return;
       button.disabled = true;
       try {
-        const response = await fetch(counterUrl, { cache: 'no-store' });
+        const response = await fetch(`${counterUrl}?behavior=vote`, { cache: 'no-store' });
         if (!response.ok) throw new Error('Could not record this like');
         const data = await response.json();
         showCount(data.value);
