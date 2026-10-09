@@ -9,8 +9,8 @@ redirect_from:
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Noto+Serif+SC:wght@400;500;600&display=swap');
-  html, body { background-color: #f8fbfe !important; }
-  .masthead { position: sticky; background: rgba(244, 249, 253, .94); backdrop-filter: blur(12px); }
+  html, body { background-color: #fff !important; }
+  .masthead { position: sticky; background: rgba(255, 255, 255, .96); backdrop-filter: blur(12px); }
   .masthead::after { background: #e2eaf0; }
   .masthead__inner-wrap { max-width: 1080px; }
   .masthead__menu { width: 100%; }
@@ -23,7 +23,7 @@ redirect_from:
   .page { max-width: 1080px; }
   .page__content { padding-top: 2.5em; }
   .academic-home { color: #303941; font-family: 'DM Sans', Arial, sans-serif; font-size: 13px; }
-  .academic-hero { display: grid; grid-template-columns: minmax(0, 1fr) 220px; gap: 44px; align-items: center; padding: 26px 28px; border-radius: 18px; background: linear-gradient(115deg, rgba(222, 237, 250, .48), rgba(237, 246, 253, .22)); }
+  .academic-hero { display: grid; grid-template-columns: minmax(0, 1fr) 220px; gap: 44px; align-items: center; padding: 26px 28px; border-radius: 18px; background: #fff; }
   .academic-kicker, .academic-date, .academic-venue { color: #657782; font-family: 'DM Mono', Consolas, monospace; letter-spacing: .015em; }
   .academic-kicker { font-size: 10px; text-transform: uppercase; letter-spacing: .09em; }
   .academic-date, .academic-venue { font-size: 12px; }
@@ -35,7 +35,7 @@ redirect_from:
   .academic-links a:hover { border-color: #647f8d; background: #f5f8f9; }
   .academic-portrait { display: block; width: 220px; height: 220px; border: 1px solid #dce4e5; border-radius: 50%; background: #edf1f2; box-shadow: 0 8px 24px #21364212; object-fit: cover; object-position: center 25%; }
   .academic-section { margin-top: 38px; scroll-margin-top: 78px; }
-  .academic-section h2 { margin: 0 0 16px; padding-bottom: .5em; border-bottom: 1px solid #dce3e5; color: #27333a; font-family: 'Playfair Display', Georgia, serif; font-size: 18px; font-weight: 600; }
+  .academic-section h2 { margin: 0 0 16px; padding-bottom: .5em; border-bottom: 1px solid #dce3e5; color: #27333a; font-family: 'DM Sans', Arial, sans-serif; font-size: 17px; font-weight: 600; }
   .academic-bio { color: #52616a; font-size: 13px; line-height: 1.8; }
   .academic-row { display: grid; grid-template-columns: 145px minmax(0, 1fr); gap: 18px; align-items: start; margin: 15px 0; font-size: 12px; line-height: 1.65; }
   .academic-date { white-space: nowrap; font-weight: 700; }
