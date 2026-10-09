@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "Homepage"
 author_profile: false
 header: false
 redirect_from:
@@ -14,10 +13,12 @@ redirect_from:
   .masthead { position: sticky; background: rgba(244, 249, 253, .94); backdrop-filter: blur(12px); }
   .masthead::after { background: #e2eaf0; }
   .masthead__inner-wrap { max-width: 1080px; }
-  .masthead__menu .greedy-nav { background: transparent; }
-  .masthead__menu .greedy-nav .visible-links { display: flex; width: 100%; align-items: center; gap: .35rem; }
-  .masthead__menu .greedy-nav .visible-links > li { display: block; }
-  .masthead__menu .greedy-nav .visible-links > li:first-child { margin-right: auto; }
+  .masthead__menu { width: 100%; }
+  .masthead__menu .academic-nav { display: flex; width: 100%; align-items: center; justify-content: space-between; }
+  .academic-nav-home { color: #4b5257; font-size: 18px; font-weight: 700; text-decoration: none; }
+  .academic-nav-links { display: flex; align-items: center; gap: 24px; }
+  .academic-nav-links a { color: #505b63; font-size: 12px; text-decoration: none; }
+  .academic-nav-links a:hover { color: #28728a; }
   .masthead__menu-item--lg { padding-right: 2.1em; font-weight: 700; }
   .page { max-width: 1080px; }
   .page__content { padding-top: 2.5em; }
@@ -56,6 +57,9 @@ redirect_from:
     .academic-affiliation { font-size: 13px; }
     .academic-row, .academic-award-row { grid-template-columns: 112px minmax(0, 1fr); gap: 10px; font-size: .92em; }
     .page__content p.academic-notes { margin-left: 122px; }
+    .academic-nav-home { font-size: 15px; }
+    .academic-nav-links { gap: 8px; }
+    .academic-nav-links a { font-size: 10px; }
   }
 </style>
 
