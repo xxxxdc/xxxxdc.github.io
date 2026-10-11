@@ -1,6 +1,6 @@
 ---
 permalink: /
-browser_title: "Dongchen Xie"
+browser_title: "Dongchen Xie's Homepage"
 author_profile: false
 header: false
 redirect_from:

@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Dongchen Xie"
+title                    : "Dongchen Xie's Homepage"
 title_separator          : "-"
 name                     : &name "Dongchen Xie"
 description              : &description "Dongchen Xie is a Ph.D. student in Computer Science at City University of Hong Kong, researching software security and large language models."
