@@ -111,7 +111,7 @@ redirect_from:
 
   <section class="academic-section" id="publication">
     <h2>Publication</h2>
-    <article class="academic-row academic-pub"><div class="academic-date">FSE 2027<br><span class="academic-status">Under Review</span></div><div><div class="academic-pub-title">COMPASS: Predicting the Relationship of Multiple Patches for Vulnerabilities with LLMs</div><div class="academic-meta">Yi Song<sup>†</sup>, <strong>Dongchen Xie<sup>†</sup></strong>, Xiaoyuan Xie<sup>*</sup>, He Zhang, Lin Xu, Chunying Zhou</div></div></article>
+    <article class="academic-row academic-pub"><div class="academic-date">arXiv 2026<br><span class="academic-status">Preprint</span></div><div><div class="academic-pub-title"><a href="https://arxiv.org/abs/2609.39783">COMPASS: Predicting the Relationship of Multiple Patches for Vulnerabilities with LLMs</a></div><div class="academic-meta">Yi Song<sup>†</sup>, <strong>Dongchen Xie<sup>†</sup></strong>, Xiaoyuan Xie<sup>*</sup>, He Zhang, Lin Xu, Chunying Zhou, Zhi Jin</div></div></article>
     <article class="academic-row academic-pub"><div class="academic-date">ASE 2025</div><div><div class="academic-pub-title"><a href="https://ieeexplore.ieee.org/document/11334340">Not Every Patch is an Island: LLM-Enhanced Identification of Multiple Vulnerability Patches</a></div><div class="academic-meta">Yi Song<sup>†</sup>, <strong>Dongchen Xie<sup>†</sup></strong>, Lin Xu<sup>†</sup>, He Zhang, Chunying Zhou, Xiaoyuan Xie<sup>*</sup><br><span class="academic-award-badge">★ ACM SIGSOFT Distinguished Paper Award</span></div></div></article>
     <p class="academic-notes">† Co-first authors · * Corresponding author</p>
   </section>
